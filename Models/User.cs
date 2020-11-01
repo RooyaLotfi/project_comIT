@@ -6,14 +6,15 @@ namespace MyEvent.Dal.Models
 {
     class User
     {
-        public string ID { get; set; }
+        public int ID { get; set; }
 
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
 
-        public List<Event> Events { get; set; }
+        public List<UserEvent> UserEvents { get; set; }
 
+        public List<UserPoll> UserPolls { get; set; }
 
     }
 }
