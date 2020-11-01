@@ -6,7 +6,6 @@ namespace MyEvent.Dal.Models
 {
     class Poll
     {
-
         public int Id { get; set; }
 
         public List<UserPoll> UserPolls { get; set; }
