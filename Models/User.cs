@@ -14,7 +14,6 @@ namespace MyEvent.Dal.Models
 
         public List<Event> Events { get; set; }
 
-        public List<MakingEvent> MakingEvents { get; set; }
 
     }
 }
