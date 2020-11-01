@@ -12,7 +12,7 @@ namespace MyEvent.Dal.Models
         
         public Event Event { get; set; }
 
-        public Dictionary<TimeFrame, int> PollStatus{ get; set; }
+        public Dictionary<TimeFrame, int> PollResult { get; set; }
 
     }
 }
