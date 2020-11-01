@@ -11,5 +11,8 @@ namespace MyEvent.Dal.Models
         public List<UserPoll> UserPolls { get; set; }
         
         public Event Event { get; set; }
+
+        public Dictionary<TimeFrame, int> PollStatus{ get; set; }
+
     }
 }
