@@ -6,5 +6,7 @@ namespace MyEvent.Dal.Models
 {
     class Event
     {
+        public string Id { get; set; }
+
     }
 }
