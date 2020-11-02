@@ -16,5 +16,7 @@ namespace MyEvent.Dal.Models
 
         public List<Vote> Vote { get; set; }
 
+        public string Email { get; set; }
+
     }
 }
