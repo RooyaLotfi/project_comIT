@@ -15,11 +15,11 @@ namespace MyEvent.Dal.Models
     {
         public int Id { get; set; }
 
-        public string title { get; set; }
+        public string Title { get; set; }
 
         public List<UserEvent> UserEvents { get; set; }
 
-        public Poll Poll { get; set; }
+        public PollResult PollResult { get; set; }
 
         public EventStatus Status { get; set; }
 

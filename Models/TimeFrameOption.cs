@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MyEvent.Dal.Models
 {
-    class TimeFrame
+    class TimeFrameOption
     {
         public int Id { get; set; }
 

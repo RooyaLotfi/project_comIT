@@ -14,7 +14,7 @@ namespace MyEvent.Dal.Models
 
         public List<UserEvent> UserEvents { get; set; }
 
-        public List<UserPoll> UserPolls { get; set; }
+        public List<Vote> Vote { get; set; }
 
     }
 }

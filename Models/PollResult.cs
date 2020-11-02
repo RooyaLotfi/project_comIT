@@ -4,15 +4,15 @@ using System.Text;
 
 namespace MyEvent.Dal.Models
 {
-    class Poll
+    class PollResult
     {
         public int Id { get; set; }
-
-        public List<UserPoll> UserPolls { get; set; }
         
         public Event Event { get; set; }
 
-        public Dictionary<TimeFrame, int> PollResult { get; set; }
+        public TimeFrameOption TimeFrame { get; set; }
+
+        public List<Vote> Votes { get; set; }
 
     }
 }
