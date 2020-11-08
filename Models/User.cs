@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MyEvent.Dal.Models
 {
-    class User
+    class User : EntityBase
     {
         public int Id { get; set; }
 

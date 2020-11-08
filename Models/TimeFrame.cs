@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MyEvent.Dal.Models
 {
-    class TimeFrame
+    class TimeFrame : EntityBase
     {
         public int Id { get; set; }
 

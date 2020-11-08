@@ -11,7 +11,7 @@ namespace MyEvent.Dal.Models
         Decided,
         Cancelled 
     }
-    class Event
+    class Event : EntityBase
     {
         public int Id { get; set; }
 
