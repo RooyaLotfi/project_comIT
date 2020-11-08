@@ -25,7 +25,6 @@ namespace MyEvent.Dal.Models
 
         public EventStatus Status { get; set; }
 
-
         public Event()
         {
             Status = EventStatus.InPoll;
