@@ -4,12 +4,14 @@ using System.Text;
 
 namespace MyEvent.Dal.Models
 {
-    class TimeFrameOption
+    class TimeFrame
     {
         public int Id { get; set; }
 
         public DateTime StartFrame { get; set; }
 
         public DateTime EndFrame { get; set; }
+
+        public List<Event> Events { get; set; }
     }
 }
