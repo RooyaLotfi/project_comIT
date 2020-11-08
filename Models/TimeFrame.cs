@@ -8,10 +8,13 @@ namespace MyEvent.Dal.Models
     {
         public int Id { get; set; }
 
-        public DateTime StartFrame { get; set; }
+        public DateTime StartTime { get; set; }
 
-        public DateTime EndFrame { get; set; }
+        public DateTime EndTime { get; set; }
 
-        public List<Event> Events { get; set; }
+        public Vote Vote { get; set; }
+
+        public string? VoteId { get; set; }
+
     }
 }

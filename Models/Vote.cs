@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MyEvent.Dal.Models
 {
-    class Vote
+    class Vote : EntityBase
     {
         public string Id { get; set; }
 
@@ -12,11 +12,13 @@ namespace MyEvent.Dal.Models
 
         public int UserId { get; set; }
 
-        public Polling Poll { get; set; }
+        public PollResult Poll { get; set; }
 
         public int PollId { get; set; }
 
-        public List<PollOption> Options { get; set; }
+        public List<TimeFrame>? TimeFrames { get; set; }
+
+        public List<Location>? Places { get; set; }
 
     }
 }

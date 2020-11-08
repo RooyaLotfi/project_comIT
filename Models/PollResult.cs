@@ -4,11 +4,9 @@ using System.Text;
 
 namespace MyEvent.Dal.Models
 {
-    class Polling : EntityBase
+    class PollResult : EntityBase
     {
         public int Id { get; set; }
-
-        public PollOption PollOption { get; set; }
 
         public int PollOptionId { get; set; }
 
