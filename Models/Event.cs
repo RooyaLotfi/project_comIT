@@ -18,7 +18,7 @@ namespace MyEvent.Dal.Models
         public string Title { get; set; }
 
         public List<UserEvent> UserEvents { get; set; }
-
+        //Nullable should not be used for properties with type of objects/classes
         public PollResult? PollResult { get; set; }
 
         public int? PollResultId { get; set; }
