@@ -6,7 +6,7 @@ namespace MyEvent.Dal.Models
 {
     class Vote : EntityBase
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         public User User { get; set; }
 
