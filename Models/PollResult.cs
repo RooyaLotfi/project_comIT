@@ -8,8 +8,6 @@ namespace MyEvent.Dal.Models
     {
         public int Id { get; set; }
 
-        public int PollOptionId { get; set; }
-
         public List<Vote> Votes { get; set; }
 
         public Event Event { get; set; }
