@@ -70,6 +70,8 @@ StyleCopReport.xml
 
 # Files built by Visual Studio
 *_i.c
+*bin
+*obj
 *_p.c
 *_h.h
 *.ilk

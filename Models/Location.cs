@@ -10,9 +10,9 @@ namespace MyEvent.Dal.Models
 
         public string Name { get; set; }
 
-        public Vote? Vote { get; set; }
+        public Vote Vote { get; set; }
 
-        public string? VoteId { get; set; }
+        public string VoteId { get; set; }
 
     }
 }

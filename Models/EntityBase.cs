@@ -10,7 +10,7 @@ namespace MyEvent.Dal.Models
 
         public DateTime CreatedDatetime { get; set; }
 
-        public string? UpdatedBy { get; set; }
+        public string UpdatedBy { get; set; }
 
         public DateTime? UpdateDatetime { get; set; }
     }

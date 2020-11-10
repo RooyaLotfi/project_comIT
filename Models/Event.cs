@@ -19,7 +19,7 @@ namespace MyEvent.Dal.Models
 
         public List<UserEvent> UserEvents { get; set; }
 
-        public PollResult? PollResult { get; set; }
+        public PollResult PollResult { get; set; }
 
         public int? PollResultId { get; set; }
 

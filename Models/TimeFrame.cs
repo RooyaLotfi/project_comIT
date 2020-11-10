@@ -14,7 +14,7 @@ namespace MyEvent.Dal.Models
 
         public Vote Vote { get; set; }
 
-        public string? VoteId { get; set; }
+        public string VoteId { get; set; }
 
     }
 }
