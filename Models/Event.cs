@@ -25,6 +25,14 @@ namespace MyEvent.Dal.Models
 
         public EventStatus Status { get; set; }
 
+        public TimeFrame TimeFrame{ get; set; }
+
+        public int? TimeFrameId{ get; set; }
+
+        public Location Location{ get; set; }
+
+        public int? LocationId{ get; set; }
+
         public Event()
         {
             Status = EventStatus.InPoll;
