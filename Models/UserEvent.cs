@@ -6,7 +6,7 @@ namespace MyEvent.Dal.Models
 {
     class UserEvent
     {
-        public int? EventId { get; set; }
+        public int EventId { get; set; }
         
         public List<Event> Events { get; set; }
 

@@ -10,8 +10,7 @@ namespace MyEvent.Dal.Models
 
         public DateTime CreatedDatetime { get; set; }
 
-        //Nullable should not be used for properties with type of string
-        public string? UpdatedBy { get; set; }
+        public string UpdatedBy { get; set; }
 
         public DateTime? UpdateDatetime { get; set; }
     }
