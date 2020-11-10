@@ -16,7 +16,7 @@ namespace MyEvent.Dal.Models
 
         public int PollId { get; set; }
 
-        public DateTime VotingDatetime{ get; set; }
+        public DateTime? VotingDatetime{ get; set; }
 
         public List<TimeFrame> TimeFrames { get; set; }
 
