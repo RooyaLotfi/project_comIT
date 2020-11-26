@@ -12,9 +12,9 @@ namespace MyEvent.Dal.Models
 
         public string LastName { get; set; }
 
-        public List<UserEvent> UserEvents { get; set; }
+        public List<Event> Events { get; set; }
 
-        public List<Vote> Vote { get; set; }
+        public List<Response> Responses { get; set; }
 
         public string Email { get; set; }
 

@@ -4,14 +4,16 @@ using System.Text;
 
 namespace MyEvent.Dal.Models
 {
-    class PollResult : EntityBase
+    class Poll
     {
         public int Id { get; set; }
 
-        public List<Response> Votes { get; set; }
+        public int EventId { get; set; }
 
         public Event Event { get; set; }
 
-        public int EventId { get; set; }
+        public List<Response> Responses { get; set; }
+
+        public List<PollQuestion> PollQuestions { get; set; }
     }
 }

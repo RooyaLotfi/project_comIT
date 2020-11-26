@@ -17,21 +17,19 @@ namespace MyEvent.Dal.Models
 
         public string Title { get; set; }
 
-        public List<UserEvent> UserEvents { get; set; }
+        public User Creator { get; set; }
 
-        public PollResult PollResult { get; set; }
+        public int CreatorId { get; set; }
 
-        public int? PollResultId { get; set; }
+        //public PollResult PollResult { get; set; }
+
+        //public int? PollResultId { get; set; }
 
         public EventStatus Status { get; set; }
 
-        public TimeFrame TimeFrame{ get; set; }
+        public DateTime EventDateTime{ get; set; }
 
-        public int? TimeFrameId{ get; set; }
-
-        public Location Location{ get; set; }
-
-        public int? LocationId{ get; set; }
+        public Poll Poll { get; set; }
 
         public Event()
         {
